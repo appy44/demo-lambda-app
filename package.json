@@ -1,0 +1,30 @@
+{
+  "name": "demo-lambda-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appy44/demo-lambda-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/appy44/demo-lambda-app/issues"
+  },
+  "homepage": "https://github.com/appy44/demo-lambda-app#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "lodash": "^4.17.21",
+    "uui": "^1.0.7",
+    "uuid": "^13.0.0"
+  }
+}
