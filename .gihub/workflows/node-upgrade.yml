@@ -1,0 +1,8 @@
+name: Node Upgrade
+
+on:
+  workflow_dispatch:
+
+jobs:
+  upgrade:
+    uses: appy44/node-upgrade-agent/.github/workflows/upgrade.yml@main
