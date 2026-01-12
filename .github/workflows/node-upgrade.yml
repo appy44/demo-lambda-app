@@ -3,6 +3,10 @@ name: Node Upgrade
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   upgrade:
     uses: appy44/node-upgrade-agent/.github/workflows/upgrade.yml@main
